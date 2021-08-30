@@ -15,7 +15,7 @@ const contryData = (displayData) => {
         <img id="resizeImg" class="${countes.name}" src="" alt="">
         <h4>Country: ${countes.name}</h4>
         <p>population: ${countes.population}</p>
-        <button onclick="showMap('${countes.name}')">View Map</button>
+        <button onclick="showMap('${countes.name}')">View flag</button>
         `;
         posts_area.appendChild(dib);
     });
