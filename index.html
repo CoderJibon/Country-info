@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Book List</title>
+    <style>
+      .container{
+          max-width: 1250px;
+          margin:auto;
+      }
+      .posts_area{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 30px;
+      }
+      .postColum{
+        background-color: bisque;
+        border: 2px solid royalblue;
+        padding: 10px;
+      }
+      #resizeImg{
+        max-width: 100%;
+        height: auto;
+      }
+      @media only screen and (max-width: 992px){
+        .posts_area{
+          grid-template-columns: auto;
+        }
+    
+      }
+    </style>
+</head>
+<body>
+
+
+  <section>
+    <div class="container">
+       <div class="posts_area">
+       </div>
+    </div>
+  </section>
+
+
+
+  <script src="app.js "></script>  
+</body>
+</html>
